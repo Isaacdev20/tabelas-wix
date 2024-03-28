@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    height: 100%;
+}
+
+p.es{
+    margin-top: 20%;
+}
+.tabela th strong{
+    color: black;
+    font-size: 36px;
+}
+
+.tabela th sup{
+    font-size: 16px;
+}
+
+#table-wix{
+    width: 400px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+#table-wix th{
+    border: 1px solid black;
+    padding: 10px 0px;
+    min-width: 120px;
+    text-align: center;
+}
+#table-wix td{
+    border: 1px solid black;
+    padding: 10px 0px;
+    min-width: 200px;
+    text-align: center;
+}
+#table-wix tbody td:nth-child(3){
+    background-color: #dfdfdf;
+}
+#table-wix th:nth-child(3){
+    background-color:#dfdfdf;
+}
+
+

@@ -3,6 +3,17 @@
 }
 html{
     height: 100%;
+    width: 100%;
+}
+
+.div-popular {
+    position: static;
+    top: 15px;
+    background-color: white;
+    color: #aa4dc8;
+    padding: 5px 10px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.246);
 }
 
 p.es{
@@ -32,7 +43,7 @@ p.es{
 #table-wix td{
     border: 1px solid black;
     padding: 10px 0px;
-    min-width: 200px;
+    min-width: 300px;
     text-align: center;
 }
 #table-wix tbody td:nth-child(3){
